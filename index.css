@@ -1,0 +1,94 @@
+html{
+    color:#eaeaea;
+    background-color:rgba(55, 78, 109, 0.91);
+    font-family: 'Montserrat', sans-serif;
+  
+}
+a{
+    color:#6FB98F;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+.links:hover{
+    color: black;
+}
+.currentlinks{
+    font-size: 24px;
+    color:white;
+}
+.box{
+    background: rgba(3, 24, 69, 0.96);
+    text-align: center;
+    width: 70vw;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-40px;
+    box-shadow: 10px 6px 16px 5px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}
+
+.centerlogo{
+    padding-top:40px;
+}
+.name{
+    padding:10px;
+   
+}
+
+.aboutWrapper{
+    display: flex;
+    flex-direction:row;
+}
+.spacing{
+    margin:auto;
+}
+
+.spacing h1{
+    text-align: center;
+}
+
+.skillsWrapper{
+    margin-top: -100px;
+    margin-top: -100px;
+    background-color:  rgba(3, 24, 69, 0.96);
+    width: 70vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+.starwrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.starwrapper img{
+    padding-left: 55px;
+    width: 75px;
+    height: 75px;
+}
+.starwrapper div{
+    justify-content: center;
+}
+.starsize{
+    font-size: 30px;
+    padding-right:10px;
+}
+.projectwrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.skillsspacing h1 {
+    text-align: center;
+}
+.center{
+    text-align: center;
+    border-bottom: 3px solid #eaeaea;
+}
