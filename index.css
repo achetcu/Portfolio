@@ -4,61 +4,72 @@ html{
     font-family: 'Montserrat', sans-serif;
   
 }
-a{
+
+.links{
     color:#6FB98F;
     text-decoration: none;
+    padding: 2px;
     margin-top: 10px;
+    margin-right: 12px;
+    margin-left: 0px;
+    float: right;
     font-size: 20px;
 }
 
-header{
-    display:flex;
-    flex-direction: column;
-    
-    
+.skills:hover{
+    color: lightgray;
+
 }
-.links:hover{
-    color: black;
-}
-.currentlinks{
-    font-size: 24px;
-    color:white;
+.sociallinks{
+    color:#6FB98F;
+    text-decoration: none;
+    margin-left: 7px;
+    margin-top: 10px;
+    font-size: 28px;
+    float: left;
 }
 .box{
     background: rgba(3, 24, 69, 0.96);
     text-align: center;
     width: 70vw;
-    height: 70vh;
+    height: 45vh;
     margin-left: auto;
     margin-right: auto;
-    margin-top:-40px;
+    
     box-shadow: 10px 6px 16px 5px rgba(0,0,0,0.75);
     border-radius: 25px;
 }
 
 .centerlogo{
-    padding-top:40px;
+    margin-top: 30px;
 }
 .name{
-    padding:10px;
+    margin-top: 30px;
    
 }
 
 .aboutWrapper{
+    
     display: flex;
     flex-direction:row;
    
+}
+
+.aboutpic{
+    width: 300px; 
+    height: 300px;
+    border-radius: 25px;
 }
 .spacing{
     margin:auto;
 }
 
-.spacing h1{
+.spacing h3{
     text-align: center;
 }
 
 .skillsWrapper{
-    margin-top: -100px;
+    
     background-color:  rgba(3, 24, 69, 0.96);
     width: 70vw;
     margin-right: auto;
@@ -81,6 +92,9 @@ header{
 .starsize{
     font-size: 30px;
     padding-right:10px;
+}
+.about{
+    text-align: center;
 }
 .projectwrap{
     display: flex;
